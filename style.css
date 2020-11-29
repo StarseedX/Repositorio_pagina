@@ -1,6 +1,14 @@
 .header-container {
     background-image: url("./imagenes/Menu.png" alt="Imagen baner");
     flex-wrap: wrap;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
 }
 
 #services {
@@ -34,16 +42,18 @@
     text-align: center;
 }
 
-ulmenu li {
+ul#menu li {
     display: inline;
     padding: 1em;
     font-family: 'Alatsi', sans-serif;
-    font-size: 2em;
+    font-size: 1.5;
+    text-transform: uppercase;
+    flex-direction: row;
 }
 
 h1 {
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     font-family: 'Alatsi', sans-serif;
     color: #4c24d8;
 }
