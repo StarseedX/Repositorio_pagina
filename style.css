@@ -12,14 +12,14 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: baseline;
+    text-align: center;
 }
 
 #team {
-    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 5em;
+    text-align: center;
 }
 
 #news {
@@ -31,6 +31,7 @@
     flex-wrap: nowrap;
     align-items: baseline;
     justify-content: center;
+    text-align: center;
 }
 
 ulmenu li {
