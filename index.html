@@ -13,25 +13,27 @@
         <!--Inicio del header-->         
         <header> 
             <!-- menu -->             
-            <section> 
-                <div class="header-container">
-                    <h1>Astronomia</h1> 
-                    <ul id="menu">
-                        <li>
-                            <a href="#">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="#services">Servicios</a>
-                        </li>
-                        <li>
-                            <a href="#news">Noticias</a>
-                        </li>
-                        <li>
-                            <a href="#team">Miembros</a>
-                        </li>
-                    </ul>
+            <section>
+                <div class="header">
+                    <div class="header-container">
+                        <h1>Astronomia</h1> 
+                        <ul id="menu">
+                            <li>
+                                <a href="#">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="#services">Servicios</a>
+                            </li>
+                            <li>
+                                <a href="#news">Noticias</a>
+                            </li>
+                            <li>
+                                <a href="#team">Miembros</a>
+                            </li>
+                        </ul>
+                    </div>                     
+                    <img src="./imagenes/Menu.png" alt="Imagen baner">
                 </div>
-                <img src="./imagenes/Menu.png" alt="Imagen baner">
             </section>             
             <!-- final menu -->             
             <!-- baner -->             
@@ -42,6 +44,9 @@
         <!--final del header-->         
         <!--Inicio del main-->         
         <main> 
+            <div id="Titles">
+                <h2>SERVICIOS</h2> 
+            </div>
             <!--Inicio servicios-->             
             <section id="services"> 
                 <div> 
@@ -61,27 +66,30 @@
                 </div>                 
             </section>             
             <!--final servicios-->             
+            <div id="Titles">
+                <h2>NOTICIAS</h2> 
+            </div>
             <!--Inicio noticias-->             
             <section id="news"> 
-                <div> 
-                    <div> 
+                <div class="news-row"> 
+                    <div class="news-container"> 
                         <img class="img-news" src="./imagenes/Habitables.jpg" alt="Habitables"> 
                         <p>El medio de comunicacion ABC dice: Científicos estiman que en nuestra galaxia hay 300 millones de mundos que podrían ser habitables, algunos de ellos a menos de 30 años luz de la Tierra</p> 
                         <a href="https://www.abc.es/ciencia/abci-calculan-famosa-ecuacion-drake-202011042135_noticia.html">Enlace >></a> 
                     </div>                     
-                    <div> 
+                    <div class="news-container"> 
                         <img class="img-news" src="./imagenes/Estrellas.jpg" alt="Estrellas" a href="https://www.abc.es/ciencia/abci-telescopio-luna-para-observar-misteriosas-estrellas-poblacion-202011172124_noticia.html"> 
                         <p>El medio de comunicacion ABC dice: Astrónomos de la Universidad de Texas dicen que sería capaz de observar las primeras estrellas del Universo</p> 
                         <a href="https://www.abc.es/ciencia/abci-telescopio-luna-para-observar-misteriosas-estrellas-poblacion-202011172124_noticia.html">Enlace >></a> 
                     </div>                     
-                </div>                 
-                <div> 
-                    <div> 
+                </div>
+                <div class="news-row"> 
+                    <div class="news-container">
                         <img class="img-news" src="./imagenes/magnetar.jpg" alt="magnetar"> 
                         <p>El medio de comunicacion ABC dice: Los estallidos provienen del mismo magnetar dentro de nuestra galaxia, situado a «solo» 25.000 años luz</p> 
                         <a href="https://www.abc.es/ciencia/abci-repite-potente-emision-radio-cerca-tierra-202011200922_noticia.html">Enlace >></a> 
                     </div>                     
-                    <div> 
+                    <div class="news-container">
                         <img class="img-news" src="./imagenes/Extraño.jpg" alt="Extraño"> 
                         <p>El medio de comunicacion ABC dice: El extraño objeto, nunca antes visto en nuestra galaxia, parece ser el ejemplo más joven conocido de la fusión de dos estrellas</p> 
                         <a href="https://www.abc.es/ciencia/abci-nebulosa-anillo-azul-resuelto-misterio-cosmico-desde-hace-mas-decada-202011192118_noticia.html">Enlace >></a> 
@@ -89,24 +97,25 @@
                 </div>                 
             </section>             
             <!--final noticias-->             
+            <div id="Titles">
+                <h2>TEAM</h2> 
+            </div>
             <!-- inicio miembros -->             
             <section id="team"> 
-                <div class="team-136">
-                    <div> 
-                        <img class="profile-pics" src="./imagenes/David.jpeg" alt="David"> 
-                        <h2>David Leonardo Peinado Ruiz</h2> 
-                        <p>Estudiante de matematicas en la universidad Distrital Francisco Jose de Caldas, en la ciudad de Bogota, musico empirico de 24 años y aficionado a los videojuegos. </p> 
-                    </div>                     
-                    <div> 
-                        <img src="./imagenes/Andres.jpeg" alt="Andres"> 
-                        <h2>Andres Felipe Callejas Ruiz</h2> 
-                        <p>Estudia en la universidad Nacional de Colombia en Medellin, tiene 18 años y sus pasatiempos son la lectura,el rugby, las series animadas, y jugar league of legends</p> 
-                    </div>                     
-                    <div> 
-                        <img src="./imagenes/Camilo.jpeg" alt="Camilo"> 
-                        <h2>Camilo Villalobos</h2> 
-                        <p>Tengo 31 años, profesional en Mercadeo & Publicidad del Politécnico Grancolombiano. Me gusta montar bici, patinar, navegar en kayak, tocar guitarra, la mecánica automotriz y el diseño gráfico.</p> 
-                    </div>                     
+                <div class="profile"> 
+                    <img class="profile-pics" src="./imagenes/David.jpeg" alt="David"> 
+                    <h3>David Leonardo Peinado Ruiz</h3> 
+                    <p>Estudiante de matematicas en la universidad Distrital Francisco Jose de Caldas, en la ciudad de Bogota, musico empirico de 24 años y aficionado a los videojuegos. </p> 
+                </div>                 
+                <div class="profile"> 
+                    <img class="profile-pics" src="./imagenes/Andres.jpeg" alt="Andres"> 
+                    <h3>Andres Felipe Callejas Ruiz</h3> 
+                    <p>Estudia en la universidad Nacional de Colombia en Medellin, tiene 18 años y sus pasatiempos son la lectura,el rugby, las series animadas, y jugar league of legends</p> 
+                </div>                 
+                <div class="profile"> 
+                    <img class="profile-pics" src="./imagenes/Camilo.jpeg" alt="Camilo"> 
+                    <h3>Camilo Andrés Villalobos Criollo</h3> 
+                    <p>Tengo 31 años, profesional en Mercadeo & Publicidad del Politécnico Grancolombiano. Me gusta montar bici, patinar, navegar en kayak, tocar guitarra, la mecánica automotriz y el diseño gráfico.</p> 
                 </div>                 
             </section>             
             <!-- final miembros -->             
@@ -116,15 +125,16 @@
         <footer> 
             <div> 
                 <p class="nota">Este sitio web, es un sitio con fines academicos, con motivación en la astronomia</p> 
-                <a href="https://github.com/Grupo-136/Repositorio_pagina.git">Enlace_git >></a> 
+                <div class="link-git">
+                    <a class href="https://github.com/Grupo-136/Repositorio_pagina.git">Enlace_git >></a> 
+                </div>
             </div>             
             <div> 
                 <p class="contacto"> 
-                David Peinado, correo: david.peinado96@gmail.com, Numero: 3115126924 <br>
-                Andres Callejas, correo: andreawa609@gmail.com, Numero: 3126400738 <br>
-                Camilo Villalobos, correo: axvillalobos47@gmail.com, Numero: 3208652542 </p> 
+                David Peinado: e-mail: david.peinado96@gmail.com | Numero: 3115126924 <br>
+                Andres Callejas: e-mail: andreawa609@gmail.com | Numero: 3126400738 <br>
+                Camilo Villalobos: e-mail: axvillalobos47@gmail.com | Numero: 3208652542 </p> 
             </div>             
         </footer>         
         <!--final del footer-->         
-    </body>     
-</html>
+    </body>
